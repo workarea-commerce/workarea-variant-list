@@ -1,0 +1,11 @@
+en:
+  workarea:
+    storefront:
+      flash_messages:
+        cart_bulk_items_added: These items have been added to your cart.
+        cart_bulk_items_error: Some items could not be added to your cart.
+      variant_list:
+        products:
+          variant_unavailable: This SKU is currently unavailable for purchase.
+          sku: SKU
+          price: Price

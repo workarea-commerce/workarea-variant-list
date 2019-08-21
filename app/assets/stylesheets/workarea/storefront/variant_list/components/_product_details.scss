@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    #PRODUCT-DETAILS
+\*------------------------------------*/
+
+.product-details--variant-list {}
+
+    .product-details__variant-table {}
+
+        .product-details__variant-table-head {}
+
+        .product-details__variant-table-body {}
+
+            .product-details__variant-table-row {}
+
+                .product-details__variant-table-cell {}
+
+                .product-details__variant-table-cell--image {}
+
+                .product-details__variant-table-cell--name {
+                    .product-details__variant-table-body & {
+                        font-weight: bold;
+                    }
+                }
+
+                .product-details__variant-table-cell--detail {
+                    text-align: center;
+                }
+
+                .product-details__variant-table-cell--price {
+                    text-align: right;
+
+                    .product-details__variant-table-body & {
+                        font-weight: bold;
+                    }
+                }
+
+                .product-details__variant-table-cell--quantity {
+                    text-align: right;
+                }
+
