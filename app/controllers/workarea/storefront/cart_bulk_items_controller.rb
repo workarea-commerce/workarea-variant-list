@@ -17,7 +17,7 @@ module Workarea
 
           @cart = CartViewModel.new(current_order, view_model_options)
           @items = add_to_cart.items.map do |cart_item|
-            OrderItemViewModel.wrap(cart_item.item, view_model_options)
+            OrderItemViewModel.wrap(cart_item.item.reload, view_model_options)
           end
         else
           flash[:error] =
