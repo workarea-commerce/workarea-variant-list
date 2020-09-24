@@ -1,3 +1,24 @@
+Workarea Variant List 1.0.3 (2020-09-24)
+--------------------------------------------------------------------------------
+
+*   Fix $0.00 Pricing in Cart Summary
+
+    Workarea now reloads the item data before rendering the cart summary so
+    as to display the correct pricing for a variant list product.
+
+    VARLIST-2
+
+    Tom Scott
+
+*   Overhaul Schema.org microdata
+
+    A port of the handsome and generous @meowsus' incredible work from a
+    parallel dimension
+
+    Curt Howard
+
+
+
 Workarea Variant List 1.0.2 (2019-08-21)
 --------------------------------------------------------------------------------
 
