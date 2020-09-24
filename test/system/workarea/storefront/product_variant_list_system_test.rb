@@ -22,6 +22,7 @@ module Workarea
         click_button 'add_to_cart'
 
         assert(page.has_content?('Success'))
+        assert_text('$15.00')
 
         visit storefront.cart_path
         assert(page.has_content?(product.name))
